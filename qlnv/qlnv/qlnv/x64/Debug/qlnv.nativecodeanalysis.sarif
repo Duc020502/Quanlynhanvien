@@ -1,0 +1,3283 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: '_getch'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                },
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 13,
+                  "endLine": 155,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "nhapmkamin",
+                  "decoratedName": "?nhapmkamin@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEADQEAV12@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory 'mkamin'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                },
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 17,
+                  "endLine": 92,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "nhapmkamin",
+                  "decoratedName": "?nhapmkamin@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEADQEAV12@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'mkamin' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 70,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 71,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 75,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 77,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'i==0')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 82,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'a!=13')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 87,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'a==13' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "'mkamin' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: '_getch'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                },
+                "region": {
+                  "startLine": 267,
+                  "startColumn": 13,
+                  "endLine": 267,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "nhapmkemloy",
+                  "decoratedName": "?nhapmkemloy@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEADQEAV12@AEAHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory 'u'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                },
+                "region": {
+                  "startLine": 247,
+                  "startColumn": 13,
+                  "endLine": 247,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "nhapmkemloy",
+                  "decoratedName": "?nhapmkemloy@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEADQEAV12@AEAHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 172,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 173,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 174,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 175,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 175,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 177,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 178,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 179,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'u' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 180,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 181,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 182,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 184,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 185,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 186,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 187,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 188,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 189,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 190,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'i==0')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 192,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 194,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 195,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 196,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'a!=13')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 198,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 199,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'a==13' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 203,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'mkemloy[0]==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 214,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'a==8' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 225,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 226,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 227,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 228,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 229,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 196,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'a!=13')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 198,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 199,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'a==13' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 203,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'mkemloy[0]==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 214,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'a==8' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 225,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 226,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 227,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 228,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 229,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 196,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'a!=13')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 232,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 233,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 233,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<t' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 247,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 247,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "'u' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: '_getch'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                },
+                "region": {
+                  "startLine": 352,
+                  "startColumn": 13,
+                  "endLine": 352,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "menuemloy",
+                  "decoratedName": "?menuemloy@@YAXAEAHQEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: '_getch'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                },
+                "region": {
+                  "startLine": 449,
+                  "startColumn": 21,
+                  "endLine": 449,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "menuemloy",
+                  "decoratedName": "?menuemloy@@YAXAEAHQEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory 'mkemloy'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                },
+                "region": {
+                  "startLine": 387,
+                  "startColumn": 25,
+                  "endLine": 387,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "menuemloy",
+                  "decoratedName": "?menuemloy@@YAXAEAHQEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 308,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 310,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 311,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 311,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 312,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 313,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 314,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 315,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 316,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 317,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 318,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 319,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 320,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 321,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 322,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 323,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 324,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 325,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 326,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 327,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 328,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 329,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 355,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 357,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 357,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 360,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 361,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 362,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 363,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 364,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "'mkemloy' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 365,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 366,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 367,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 368,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 369,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 370,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 371,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 372,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 373,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 374,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'i==0')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 374,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 375,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 377,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 379,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'a!=13')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 382,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 383,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'a==13' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 387,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 387,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'mkemloy' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory 'u'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                },
+                "region": {
+                  "startLine": 434,
+                  "startColumn": 21,
+                  "endLine": 434,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "menuemloy",
+                  "decoratedName": "?menuemloy@@YAXAEAHQEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 308,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 310,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 311,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 311,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 312,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 313,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 314,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 315,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 316,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 317,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 318,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 319,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 320,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 321,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 322,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 323,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 324,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 325,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 326,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 327,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 328,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 329,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 355,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 357,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 357,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 360,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 361,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 362,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "'u' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 363,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 364,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 365,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 366,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 367,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 368,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 369,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 370,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 371,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 372,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 373,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 374,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'i==0')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 374,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 375,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 377,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 379,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'a!=13')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 382,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 383,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'a==13' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 387,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'mkemloy[0]==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 398,
+                            "startColumn": 32
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'a==8' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 409,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 410,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 411,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 412,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 413,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 379,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'a!=13')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 382,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 383,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'a==13' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 387,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'mkemloy[0]==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 398,
+                            "startColumn": 32
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'a==8' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 409,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 410,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 411,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 412,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 413,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 379,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'a!=13')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 417,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 420,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 420,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<t' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 434,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                          },
+                          "region": {
+                            "startLine": 434,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "'u' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: '_getch'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                },
+                "region": {
+                  "startLine": 529,
+                  "startColumn": 25,
+                  "endLine": 529,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "menuamin",
+                  "decoratedName": "?menuamin@@YAXQEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: '_getch'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                },
+                "region": {
+                  "startLine": 681,
+                  "startColumn": 13,
+                  "endLine": 681,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "menuamin",
+                  "decoratedName": "?menuamin@@YAXQEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: '_getch'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+                },
+                "region": {
+                  "startLine": 776,
+                  "startColumn": 13,
+                  "endLine": 776,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "menuamin",
+                  "decoratedName": "?menuamin@@YAXQEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31629.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/qlnv/qlnv/qlnv.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8cbe67bc0858fd1cc0ad9e6562722daad27387f0e137f6a8eee073a56e2dd797"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/qlnv/qlnv/dohoa.h"
+          },
+          "hashes": {
+            "sha-256": "0787ae450490df309d1c62692a06f217c899fca54baa251b9b8cc8b2e18380ef"
+          }
+        }
+      ]
+    }
+  ]
+}
